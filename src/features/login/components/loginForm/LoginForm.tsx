@@ -51,7 +51,7 @@ const LoginForm = () => {
           name="password"
           type="text"
         />
-        <input className="button" type="submit" />
+        <input className="button" value="Send" type="submit" />
       </form>
       {!loginState.isFirstLogIn && <p>Wrong name or password</p>}
     </div>
