@@ -9,6 +9,10 @@ This shop application integrates with the FakeStore API to fetch product data. T
 3. TypeScript
 4. Sass
 
+### Test account 
+Name:123
+Password:123
+
 ## Live
 [shop-app](https://jakub6245-shop-app.netlify.app)
 
