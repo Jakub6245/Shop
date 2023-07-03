@@ -1,0 +1,28 @@
+.login {
+  width: 60vw;
+  margin: 10rem auto;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  align-items: center;
+  gap: 1rem;
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__input {
+    font-size: 2rem;
+    padding: 1rem;
+    border: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .login__form {
+    flex-direction: column;
+  }
+}

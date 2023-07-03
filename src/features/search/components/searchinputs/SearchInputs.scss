@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  gap: 2rem;
+
+  &__input {
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 1rem;
+  }
+}

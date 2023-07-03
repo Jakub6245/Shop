@@ -1,0 +1,28 @@
+.product__container {
+  margin: 5rem auto;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  background-color: lightcyan;
+}
+
+@media (max-width: 1600px) {
+  .product__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1180px) {
+  .product__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 670px) {
+  .product__container {
+    grid-template-columns: repeat(1, 1fr);
+    width: 75vw;
+  }
+}

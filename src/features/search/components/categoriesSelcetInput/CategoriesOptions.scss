@@ -1,0 +1,13 @@
+.select {
+  width: 15rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+
+  &__option {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+}

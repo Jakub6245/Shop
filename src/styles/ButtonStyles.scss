@@ -1,0 +1,10 @@
+.button {
+  background-color: lightblue;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: none;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

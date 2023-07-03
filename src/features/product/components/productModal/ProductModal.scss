@@ -1,0 +1,46 @@
+.product__modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 5rem;
+  background-color: white;
+  z-index: 9999;
+  border-radius: 20px;
+
+  &__overlay {
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
+  }
+
+  &__action {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .product__modal {
+    padding: 3rem;
+    width: 60vw;
+  }
+}
+
+@media (max-width: 920px) {
+  .product__modal {
+    padding: 2rem;
+    width: 75vw;
+  }
+}
