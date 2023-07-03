@@ -1,7 +1,7 @@
 # Shop Application using FakeStore API
 
 ## Project overview
-This is a shopping application which allows users:
+###This is a shopping application which allows users:
 1.search product by his name or category
 2.adding product to cart
 3.opening modal window with choosen product
