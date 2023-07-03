@@ -1,4 +1,12 @@
-## Shop Application using FakeStore API
+# Shop Application using FakeStore API
+
+## Project overview
+This is a shopping application which allows users:
+1.search product by his name or category
+2.adding product to cart
+3.opening modal window with choosen product
+4.deleting product from cart or changing his quantity
+5.logging to the website
 
 ## API Integration
 This shop application integrates with the FakeStore API to fetch product data. The API provides realistic product information, including images, descriptions, and prices, allowing users to experience a fully functional shop environment.
