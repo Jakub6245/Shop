@@ -10,5 +10,5 @@ This shop application integrates with the FakeStore API to fetch product data. T
 4. Sass
 
 ## Live
-[jakub6245-shop-app.netlify.app]
+[(jakub6245-shop-app.netlify.app)]
 
